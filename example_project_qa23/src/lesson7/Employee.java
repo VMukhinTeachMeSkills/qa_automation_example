@@ -32,4 +32,11 @@ public class Employee extends Person implements Printable, Readable
     {
 
     }
+
+    @Override
+    public void test()
+    {
+        super.test();
+        System.out.println("456");
+    }
 }

@@ -1,6 +1,6 @@
 package lesson7;
 
-public class Person
+public abstract class Person
 {
     protected String name;
     protected String surname;
@@ -24,4 +24,11 @@ public class Person
     {
         return surname;
     }
+
+    public void test()
+    {
+        System.out.println("123");
+    }
+
+    public abstract void test2();
 }
